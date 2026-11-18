@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="keyup_bg">#1A1426</color>
+    <color name="keyup_purple">#5B3FA6</color>
+    <color name="keyup_orange_light">#EBB487</color>
+    <color name="keyup_orange">#D18B5B</color>
+    <color name="keyup_rose">#B97A8C</color>
+    <color name="keyup_cream">#F7EBDD</color>
+
+    <color name="keyup_surface">#2B1E3F</color>
+    <color name="keyup_border">#3E2C58</color>
+    <color name="keyup_purple_light">#8E6ACB</color>
+    <color name="keyup_text_secondary">#B7AACB</color>
+    <color name="keyup_error">#FFB3A7</color>
+</resources>
