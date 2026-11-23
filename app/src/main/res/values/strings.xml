@@ -1,9 +1,74 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">KeyUp</string>
+
     <string name="btn_login">Login</string>
+    <string name="btn_criar">+</string>
+    <string name="btn_voltar">&lt;</string>
+
     <string name="btn_irCadastro">Não tem uma conta? Crie uma aqui</string>
+    <string name="btn_esqueci_senha">Esqueci minha senha</string>
+
     <string name="inpt_placeholder_email">e-mail</string>
     <string name="inpt_placeholder_senha">senha mestra</string>
-    <string name="btn_criar">+</string>
-    <string name="btn_esqueci_senha">Esqueci minha senha</string>
+    <string name="inpt_placeholder_pesquisar">Pesquisar</string>
+
+    <string name="txt_qtd_acessos">%1$d acessos</string>
+    <string name="txt_nova_categoria">Nova categoria %1$d</string>
+
+    <string name="desc_voltar">Voltar</string>
+
+    <string name="txt_criar_conta">Crie sua conta</string>
+    <string name="inpt_placeholder_email_cadastro">Informe seu e-mail</string>
+    <string name="inpt_placeholder_confirmar_senha">Confirme sua senha</string>
+    <string name="btn_criar_conta">Criar Conta</string>
+
+    <string name="txt_redefinir_senha">Esqueceu sua senha? Informe o e-mail cadastrado</string>
+    <string name="btn_enviar_codigo">Enviar Código</string>
+
+    <string name="msg_preencha_campos">Preencha todos os campos</string>
+    <string name="msg_senhas_diferentes">As senhas não são iguais</string>
+    <string name="msg_codigo_enviado">Código enviado para o e-mail informado</string>
+    <string name="msg_sem_categoria">Crie uma categoria primeiro</string>
+
+    <string name="titulo_criar_novo">Criar novo</string>
+    <string name="titulo_editar_acesso">Editar acesso</string>
+    <string name="toggle_acesso">Acesso</string>
+    <string name="toggle_categoria">Categoria</string>
+    <string name="inpt_plataforma">Plataforma</string>
+    <string name="inpt_acesso">Acesso</string>
+    <string name="inpt_senha">Senha</string>
+    <string name="inpt_nome">Nome</string>
+    <string name="lbl_categoria">Categoria</string>
+    <string name="lbl_email_username">E-mail / Username</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="desc_editar_acesso">Editar acesso</string>
+
+    <string name="titulo_categorias">Categorias</string>
+    <string name="titulo_acessos">Acessos</string>
+    <string name="msg_sem_resultado">Nenhum resultado encontrado</string>
+
+    <string name="msg_email_invalido">Informe um e-mail válido</string>
+    <string name="msg_email_existente">Já existe uma conta com esse e-mail</string>
+    <string name="msg_login_invalido">E-mail ou senha incorretos</string>
+    <string name="msg_erro_conta">Não foi possível criar a conta</string>
+    <string name="msg_sem_categorias">Você ainda não tem categorias. Toque no + para criar</string>
+    <string name="btn_sair">Sair</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_excluir">Excluir</string>
+    <string name="btn_excluir_categoria">Excluir categoria</string>
+    <string name="titulo_editar_categoria">Editar categoria</string>
+    <string name="titulo_excluir_acesso">Excluir acesso?</string>
+    <string name="msg_excluir_acesso">Esse acesso será apagado e não dá para desfazer.</string>
+    <string name="titulo_excluir_categoria">Excluir categoria?</string>
+    <string name="msg_excluir_categoria">A categoria e todos os acessos dela serão apagados. Não dá para desfazer.</string>
+    <string name="msg_categoria_existente">Já existe uma categoria com esse nome</string>
+    <string name="msg_senha_fraca">A senha mestra precisa ter pelo menos 8 caracteres, com letras e números</string>
+    <string name="msg_senha_copiada">Senha copiada</string>
+    <string name="msg_sessao_bloqueada">Por segurança, entre de novo</string>
+    <string name="desc_excluir_acesso">Excluir acesso</string>
+    <string name="desc_copiar_senha">Copiar senha</string>
+    <string name="desc_editar_categoria">Editar categoria</string>
+
 </resources>

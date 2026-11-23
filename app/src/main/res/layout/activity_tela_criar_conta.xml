@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCriarConta">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#1F1434"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="40dp"
+            app:srcCompat="@drawable/keyup_logo_vetor" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            app:srcCompat="@drawable/keyup_tipografia" />
+
+        <TextView
+            android:id="@+id/tvCriarConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/txt_criar_conta"
+            android:textAlignment="center"
+            android:textColor="@color/keyup_cream"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/KeyUpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="emailAddress"
+            android:hint="@string/inpt_placeholder_email_cadastro"
+            android:importantForAutofill="yes"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etSenha"
+            style="@style/KeyUpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/inpt_placeholder_senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etConfirmarSenha"
+            style="@style/KeyUpInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/inpt_placeholder_confirmar_senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/KeyUpButtonPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:onClick="criarConta"
+            android:text="@string/btn_criar_conta" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

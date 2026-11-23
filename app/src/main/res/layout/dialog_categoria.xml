@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_editar_categoria"
+        android:textColor="@color/keyup_cream"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbl_nome"
+        android:textColor="@color/keyup_text_secondary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etNomeEditar"
+        style="@style/KeyUpInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inpt_nome"
+        android:importantForAutofill="no"
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/btnSalvarCategoria"
+        style="@style/KeyUpButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_salvar" />
+
+    <TextView
+        android:id="@+id/tvExcluirCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/btn_excluir_categoria"
+        android:textColor="@color/keyup_error"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

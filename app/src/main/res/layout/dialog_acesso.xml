@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPlataformaAcesso"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/keyup_cream"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:text="Plataforma 1" />
+
+        <ImageButton
+            android:id="@+id/btnExcluirAcesso"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_input"
+            android:contentDescription="@string/desc_excluir_acesso"
+            android:src="@drawable/ic_lixeira" />
+
+        <ImageButton
+            android:id="@+id/btnEditarAcesso"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_input"
+            android:contentDescription="@string/desc_editar_acesso"
+            android:src="@drawable/ic_lapis" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbl_email_username"
+        android:textColor="@color/keyup_text_secondary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etAcessoVer"
+        style="@style/KeyUpInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lbl_senha"
+        android:textColor="@color/keyup_text_secondary"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etSenhaVer"
+            style="@style/KeyUpInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <ImageButton
+            android:id="@+id/btnCopiarSenha"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_input"
+            android:contentDescription="@string/desc_copiar_senha"
+            android:src="@drawable/ic_copiar" />
+    </LinearLayout>
+
+</LinearLayout>
